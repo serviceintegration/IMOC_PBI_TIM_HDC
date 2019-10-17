@@ -1,8 +1,1 @@
-*.log
-*.zip
-*.DS_STORE
-.sass-cache/
-/node_modules/
-npm-debug.log
-/dev/
-mix-manifest.json
+node_modules

@@ -1,42 +1,65 @@
-# AdminX
+# [Start Bootstrap - SB Admin 2](https://startbootstrap.com/template-overviews/sb-admin-2/)
 
-[![npm version](https://img.shields.io/npm/v/adminx.svg)](https://www.npmjs.com/package/adminx)
+[SB Admin 2](https://startbootstrap.com/template-overviews/sb-admin-2/) is an open source admin dashboard theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
-AdminX is feature-packed, responsive admin template based on [Bootstrap 4](http://getbootstrap.com/). It's currently under active development so if you have any idea on what you like to see in it, feel free to tell us.
+For the legacy Bootstrap 3 version of this theme, you can view the [last stable release](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/releases/tag/v3.3.7%2B1) of SB Admin 2 for Bootstrap 3.
 
-Check out the Demo [here](https://movact.github.io/AdminX/index.html) if you want to have a look at the current progress.
+## Preview
 
-### Documentation
-As this template is still in very early stages of development a documentation is not yet available but the [Bootstrap documentation](http://getbootstrap.com/docs/4.0/getting-started/introduction/) may be a good first start for you to check out, as we try to use as many elements from it as possible.
+[![SB Admin 2 Preview](https://startbootstrap.com/assets/img/screenshots/themes/sb-admin-2.png)](https://blackrockdigital.github.io/startbootstrap-sb-admin-2/)
 
-### jQuery & vanilla JS available 🎉
-As we are not using jQuery in a lot of projects we decided to maintain this theme with jQuery as well as vanilla JS. All our additional JavaScript is written without jQuery as a dependency. In [adminx.vanilla.js](dist/adminx.vanilla.js) we bundled [Bootstrap Native](https://github.com/thednp/bootstrap.native) so you can use all the Bootstrap components without jQuery. 👏 So we leave it up to you to use jQuery or not. :)
+**[Launch Live Preview](https://blackrockdigital.github.io/startbootstrap-sb-admin-2/)**
 
-### Contribute
-It's probably to early to contribute yet, but if want to contribute you can fork this repo and create a pull request.
+## Status
 
-When you downloaded the code install the dependencies:
-```bash
-npm install
-```
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-sb-admin-2/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-sb-admin-2.svg)](https://www.npmjs.com/package/startbootstrap-sb-admin-2)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-sb-admin-2.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-sb-admin-2)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-sb-admin-2/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-sb-admin-2)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-sb-admin-2/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-sb-admin-2?type=dev)
 
-You can watch the assets and autocompile by running:
-```bash
-npm run watch
-```
+## Download and Installation
 
-We included a small locale development server with express. It serves the layout and will also rewrite the assets from using `/dev/` instead of the `/dist/` folder automatically.
-```bash
-npm run serve
-```
+To begin using this template, choose one of the following options to get started:
 
-If you're done and want to create a production build in the `/dist/` folder run
-```bash
-npm run production
-```
+-   [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/sb-admin-2/)
+-   Install via npm: `npm i startbootstrap-sb-admin-2`
+-   Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-sb-admin-2.git`
+-   [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2)
 
-### Credit
-Credit is where credit's due: This admin template is inspired by the great [AdminLTE](https://adminlte.io/), which is why you might encounter similarity in terms of scope, but we do write all our own components and don't use any of AdminLTEs code. AdminLTE is also based on Bootstrap 3 and therefore created with LESS instead of SASS, which is our "go to" css preprocessor. We also try to go for a more minimal, clean and modern design.
+## Usage
 
-### License
-This project is licensed under [MIT](http://opensource.org/licenses/MIT).
+After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+
+### Gulp Tasks
+
+-   `gulp` the default task that builds everything
+-   `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
+-   `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
+-   `gulp js` minifies the themes JS file
+-   `gulp vendor` copies dependencies from node_modules to the vendor directory
+
+You must have npm installed globally in order to use this build environment. This theme was built using node v11.6.0 and the Gulp CLI v2.0.1. If Gulp is not running properly after running `npm install`, you may need to update node and/or the Gulp CLI locally.
+
+## Bugs and Issues
+
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/sb-admin-2/).
+
+## About
+
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+
+-   <https://startbootstrap.com>
+-   <https://twitter.com/SBootstrap>
+
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**.
+
+-   <http://davidmiller.io>
+-   <https://twitter.com/davidmillerskt>
+-   <https://github.com/davidtmiller>
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-resume/blob/gh-pages/LICENSE) license.
